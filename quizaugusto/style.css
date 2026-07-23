@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url("aura.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+.quiz{
+    background:#ffffff8d ;
+    border: 6px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 30px;
+    width: 600px;
+    max-width: 90%;
+    text-align: center;
+
+
+}
+h1{ 
+    color: darkgoldenrod;
+    margin-bottom: 50px;
+}
+ #score{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ #pergunta{
+    margin: 25px 0;
+    font-size: 22px;
+    font-weight: bold;
+ }
+ #opcoes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+ }
+ .opcao{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(83, 18, 18) ;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    transition: 0.2s;
+ }
+.opcao:hover{
+    transform: scale(1.02);
+}
+.certa{
+    background: green;
+    color: white;
+}
+.errada{
+    background: red;
+    color: white;
+}
+#proxima{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(83, 18, 18) ;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    display: none;
+    margin-top: 20px;
+}
